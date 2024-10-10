@@ -28,10 +28,10 @@ This project requires the following Python libraries:
 - **numpy**: For numerical operations and data manipulation.
   ```bash
   pip install numpy
-```
+
 
 - **pandas**: For data analysis and manipulation.
-  ```bash
+```bash
   pip install pandas
   ```
 
