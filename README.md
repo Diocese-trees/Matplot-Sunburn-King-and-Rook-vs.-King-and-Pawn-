@@ -1,0 +1,2 @@
+# Matplot-Sunburn-King-and-Rook-vs.-King-and-Pawn-
+This is a Python project where analysis of chess endgames with special focus on King and Rook vs. King and Pawn is performed. Following loading a dataset, the script tallies main statistics and visualizes the game outcomes by using Matplotlib and Seaborn. Applying a Random Forest classifier depicts the results of a game; conclusions are illustrated
