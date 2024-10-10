@@ -1,5 +1,15 @@
 # Matplot-Sunburn-King-and-Rook-vs.-King-and-Pawn
 
+This project includes the following files:
+
+- **Matplot & Sunburn_King & Rook vs. King & Pawn.py**: The main Python script for analyzing chess endgames. This script loads the dataset, performs analysis, visualizes outcomes, and applies a Random Forest classifier to predict results.
+
+- **kr-vs-kp.data**: The dataset containing the chess endgame positions, used for analysis.
+
+- **kr-vs-kp.names**: A file that provides the names and descriptions of the attributes present in the dataset.
+
+The files are located inside the folder **Chess (King-Rook Vs King-Pawn)**.
+
 This is a Python project where an analysis of chess endgames, with a special focus on King and Rook vs. King and Pawn, is performed. Following the loading of a dataset, the script tallies main statistics and visualizes the game outcomes using Matplotlib and Seaborn. Applying a Random Forest classifier depicts the results of a game; conclusions are illustrated.
 
 ## Table of Contents
@@ -18,7 +28,7 @@ This project requires the following Python libraries:
 - **numpy**: For numerical operations and data manipulation.
   ```bash
   pip install numpy
-  ```
+```
 
 - **pandas**: For data analysis and manipulation.
   ```bash
