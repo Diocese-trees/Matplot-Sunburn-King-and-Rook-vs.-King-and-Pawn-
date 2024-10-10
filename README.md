@@ -18,65 +18,67 @@ This project requires the following Python libraries:
 - **numpy**: For numerical operations and data manipulation.
   ```bash
   pip install numpy
+pandas: For data analysis and manipulation.
 
-**pandas**: For data analysis and manipulation.
-```bash
+bash
 Copy code
 pip install pandas
+matplotlib: For creating static, animated, and interactive visualizations in Python.
 
-**matplotlib**: For creating static, animated, and interactive visualizations in Python.
-```bash
+bash
 Copy code
 pip install matplotlib
+seaborn: A data visualization library built on top of Matplotlib that makes drawing attractive statistical graphics easy, using a high-level interface.
 
-**seaborn**: A data visualization library built on top of Matplotlib that makes drawing attractive statistical graphics easy, using a high-level interface.
-```bash
+bash
 Copy code
 pip install seaborn
+scikit-learn: A machine learning library for Python, providing simple and efficient tools for data mining and data analysis.
 
-**scikit-learn**: A machine learning library for Python, providing simple and efficient tools for data mining and data analysis.
-```bash
+bash
 Copy code
 pip install scikit-learn
 tracemalloc: A built-in Python library for tracing memory usage.
+
+bash
+Copy code
 # Installed by default, so not included here
-
-
-**Installation**
-**Clone the Repository**:
+Installation
+Clone the Repository:
 Clone this repository to your local machine using the following command:
-```bash
+
+bash
 Copy code
 git clone https://github.com/Diocese-trees/Matplot-Sunburn-King-and-Rook-vs.-King-and-Pawn-
-
-**Navigate to the Project Directory**:
+Navigate to the Project Directory:
 Open your terminal and navigate to the project directory:
 
-```bash
+bash
 Copy code
 cd "Chess Endgame Analysis with Matplot Sunburn"
+Install the Required Dependencies:
+Use pip to install the necessary libraries:
 
-**Install the Required Dependencies**:
-```bash
+bash
 Copy code
 pip install -r requirements.txt
-#Use pip to install the necessary libraries
-
-
 Running the Code
 Ensure that your dataset file (kr-vs-kp.data) is located in the Chess (King-Rook Vs King-Pawn) folder of the project directory.
 
-**Run the Python script with the command**:
-```bash
+Run the Python script with the command:
+
+bash
 Copy code
 python "discreet dataset matplotlib V2.py"
-
-**Editing File Location**:
+Editing File Location
 To change the file location for the dataset:
 
 Open the Python script in a text editor or IDE, discreet dataset matplotlib V2.py.
 
 Locate the following line in your code:
+
+python
+Copy code
 data_path = r"C:\Users\adeel\OneDrive\Documents\Internship\Chess Endgame Analysis with Matplot Sunburn\Chess (King-Rook Vs King-Pawn)"
 Replace it with your new location for the dataset.
 
@@ -93,8 +95,8 @@ It checks class distribution to evaluate the balance between winning and losing 
 Visualizations
 Various types of visualizations are created using Matplotlib and Seaborn, such as:
 
-**Bar Plots**: Show the count of winning and losing positions.
-**Pie Charts**: Illustrate the distribution of outcomes as a percentage.
+Bar Plots: Show the count of winning and losing positions.
+Pie Charts: Illustrate the distribution of outcomes as a percentage.
 Dot Plots: Depict the position of the White King and the outcome (won or lost) with added jitter for clarity.
 Box Plots with Swarm Plots: Provide insights into the distribution of the White King's position based on the outcome.
 Model Training
