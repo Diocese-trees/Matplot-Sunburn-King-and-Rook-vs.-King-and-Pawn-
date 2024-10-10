@@ -88,11 +88,10 @@ Code Explanation
 This project analyzes chess endgame positions, specifically focusing on King and Rook versus King and Pawn. The script includes several key components:
 
 Data Loading
-It uses the Pandas library to load the dataset, handling exceptions that may occur during loading to ensure the script runs smoothly.
-
+The dataset is loaded using the Pandas library, handling exceptions to ensure the script runs smoothly.
 Data Analysis
-The code provides a comprehensive summary of the dataset, including statistical descriptions, class distributions, and frequencies of categorical features. It checks class distribution to evaluate the balance between winning and losing positions.
-
+The code provides a comprehensive summary of the dataset, including statistical descriptions, class distributions, and frequencies of categorical features.
+It checks class distribution to evaluate the balance between winning and losing positions.
 Visualizations
 Various types of visualizations are created using Matplotlib and Seaborn, such as:
 
@@ -101,20 +100,18 @@ Pie Charts: Illustrate the distribution of outcomes as a percentage.
 Dot Plots: Depict the position of the White King and the outcome (won or lost) with added jitter for clarity.
 Box Plots with Swarm Plots: Provide insights into the distribution of the White King's position based on the outcome.
 Model Training
-A Random Forest classifier predicts game results based on encoded features of the dataset. The accuracy of the model is evaluated, and a classification report provides performance metrics such as precision, recall, and F1-score.
-
+A Random Forest classifier predicts game results based on encoded features of the dataset.
+The accuracy of the model is evaluated, providing performance metrics such as precision, recall, and F1-score.
 Findings Documentation
-Key insights from the analysis are documented, highlighting significant features and potential strategies for improving winning chances in similar chess endgames.
-
+Key insights from the analysis are documented, focusing on important features and strategies that enhance winning chances in similar chess endgames.
 Memory Usage Monitoring
 The script tracks memory usage during execution to ensure efficient resource management.
-
 Visualizations
 The visualizations generated include:
 
 Bar Plot: Displays the count of winning and losing positions, providing an overview of the class distribution.
 
-Pie Chart: Shows the distribution of outcomes as a percentage, helping to visualize the proportion of winning positions.
+Pie Chart: Shows the distribution of outcomes as a percentage, helping visualize the proportion of winning positions.
 
 Dot Plot: Depicts the position of the White King against the game outcome, making it easy to see how different positions correlate with wins or losses.
 
